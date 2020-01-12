@@ -1,8 +1,8 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  opony: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Opony',
+    routeName: 'opony',
     items: [
       {
         id: 1,
@@ -60,10 +60,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  zestawy: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Zestawy',
+    routeName: 'zestawy',
     items: [
       {
         id: 10,
@@ -115,10 +115,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  gadzety: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Gadżety',
+    routeName: 'gadzety',
     items: [
       {
         id: 18,
@@ -152,10 +152,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  enduro: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Enduro',
+    routeName: 'enduro',
     items: [
       {
         id: 23,
@@ -201,10 +201,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  motocross: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Motocross',
+    routeName: 'motocross',
     items: [
       {
         id: 30,
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
